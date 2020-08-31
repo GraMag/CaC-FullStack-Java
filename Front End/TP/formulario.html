@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+<meta charset="utf-8">
+<title>Carnivoland</title>
+</head>
+<body>
+<header style="background: lime">
+<nav>
+	<a href="index.html">Inicio</a>
+	<a href="about.html">Acerca de</a>
+	<a href="sucursales.html">Sucursales</a>
+	<a href="formulario.html">Registrate</a>
+	<a href="contacto.html">Contacto</a>
+</nav>
+<h1 style="text-align: center;">Carnivoland</h1>
+</header>
+	<h2>Formulario de registro</h2>
+	<form action="https://formspree.io/xoqkojyj" method="POST" target="_blank">
+	<label for="firstname">Nombre: </label><input size="30" type="text" name="firstname" placeholder="Ingresar nombre"> <br><br>
+	<label for="lastname">Apellido: </label><input size="30" type="text" name="lastname" placeholder="Ingresar apellido"> <br><br>
+	<label for="address">Direccion: </label><input size="30" type="text" name="address" placeholder="Ingresar calle"> <br><br>
+	<label for="addressNum">Numero: </label><input size="30" type="number" name="addressNum" placeholder="Ingresar numero"> <br><br>
+	<label for="city">Ciudad: </label><input size="30" type="text" name="city" placeholder="Ingresar ciudad"> <br><br>
+	<label for="zipcode">Codigo Postal: </label><input size="30" type="number" name="zipcode" placeholder="Ingresar C.P."> <br><br>
+	<label for="state">Provincia: </label><input size="30" type="text" name="state" placeholder="Ingresar provincia"> <br><br>
+	<label for="phone">Telefono: </label><input size="30" type="tel" name="phone" placeholder="Ingresar telefono"> <br><br>
+	<label for="birth">Fecha de nacimiento: </label><input size="30" type="date" name="birth" > <br><br>
+	<label for="mail">E-mail: </label><input size="30" type="mail" name="mail" placeholder="ejemplo@mail.com" > <br><br>
+	<label for="url">URL: </label><input size="30" type="url" name="url" placeholder="https://"> <br><br>
+	<label for="password">Contraseña: </label><input size="30" type="password" name="password" placeholder="Ingresar contraseña"> <br><br>
+	<label for="passwordConfirm">Repetir contraseña: </label><input size="30" type="password" name="passwordConfirm" placeholder="Reingresar contraseña"> <br>
+		<p> <br>Genero: <br> 
+			<input type="radio" name="gender" value="man"> Hombre
+			<input type="radio" name="gender" value="woman"> Mujer
+			<input type="radio" name="gender" value="other"> Otros
+		</p>
+		<p> <br>Plantas favoritas: <br>
+			<input type="checkbox" name="plants" value="pinguicula">Pinguicula<br>
+			<input type="checkbox" name="plants" value="drosera">Drosera<br>
+			<input type="checkbox" name="plants" value="venus">Venus<br>
+			<input type="checkbox" name="plants" value="sarracenia">Sarracenia<br>	
+		</p>
+	<label for="comments">Seleccionar opcion: </label>
+	<select id="comments" name="comments">
+	<option value="comentarios">Comentarios</option>
+	<option value="sugestions">Sugerencias</option>
+	<option value="complains">Reclamos</option>
+	</select><br>
+	<label for="box"></label><textarea name="box" rows="10" cols="30"></textarea>
+	<br><br><input type="submit" value="Enviar">
+	<button type="reset">Reset</button>
+	<br>
+	<input type="checkbox" name="confirm" value="confirm" required="">Al enviar esta aceptando los terminos y condiciones<br>			
+</form>
+<footer style="background: lime; text-align: center;">
+
+	<a href="https://facebook.com"><img src="imgs/facebook.png" alt = facebook></a>
+	<a href="https://instagram.com"><img src="imgs/instagram.png" alt = "instagram"></a>
+	<a href="https://linkedin.com/in/magaligracia"><img src="imgs/linkedin.png" alt = "linkedin"></a>
+	<a href="https://pinterest.com"><img src="imgs/pinterest.png" alt = "pinterest" </a>
+	<a href="https://www.twitter.com"><img src="imgs/twitter.png" alt = "twitter"></a>
+	<br>Maggie 2020<br>
+</footer>
+</body>
+</html>
