@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gilda+Display&family=Josefin+Slab:ital,wght@1,300&family=Lexend+Peta&display=swap');
+
+header{
+	background: #B0FE1D;
+}
+
+nav{
+	text-align: left;
+}
+
+.links a{ 
+	font-family: 'Lexend Peta', sans-serif;
+	font-size: 11px;
+	color: #EF9A20;
+    background-color: #77BD6D;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+body{
+	background: #F0FADC;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #327848;
+	font-size: 70px;
+	text-decoration: overline wavy;
+}
+
+h2{
+	background: #95DF00;
+	text-decoration: underline;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	color: #327848;
+}
+
+p, label {
+	font-family: 'Gilda Display', serif;
+
+}
+
+.formulario{
+	border-radius: 10px;
+	margin: 5px;
+	padding: 25px;
+    margin: 10px 450px;	
+    background-color: orange;
+    font-size: 15px;
+}
+
+.formulario h2{
+	border-radius: 5px;
+}
+
+.registro input{
+	border-radius: 8px;
+}	
+
+table{
+	text-align: left;
+	font-family: 'Gilda Display', serif;
+}
+
+input, button{
+   	border-radius: 3px;
+}
+
+footer{
+	background: #B0FE1D;
+	text-align: center;
+	color: white;
+}

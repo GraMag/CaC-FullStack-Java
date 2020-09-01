@@ -2,20 +2,26 @@
 <html lang="es">
 <head> 
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilos.css">
 <title>Carnivoland</title>
 </head>
 <body>
-<header style="background: lime">
+<header>
 <nav>
+	<div class="links">
 	<a href="index.html">Inicio</a>
 	<a href="about.html">Acerca de</a>
 	<a href="sucursales.html">Sucursales</a>
 	<a href="formulario.html">Registrate</a>
 	<a href="contacto.html">Contacto</a>
+	</div>
 </nav>
-<h1 style="text-align: center;">Carnivoland</h1>
+<h1>Carnivoland</h1>
+<br>
 </header>
+	<div class="formulario">	
 	<h2>Formulario de registro</h2>
+	<div class="registro"
 	<form action="https://formspree.io/xoqkojyj" method="POST" target="_blank">
 	<label for="firstname">Nombre: </label><input size="30" type="text" name="firstname" placeholder="Ingresar nombre"> <br><br>
 	<label for="lastname">Apellido: </label><input size="30" type="text" name="lastname" placeholder="Ingresar apellido"> <br><br>
@@ -30,16 +36,22 @@
 	<label for="url">URL: </label><input size="30" type="url" name="url" placeholder="https://"> <br><br>
 	<label for="password">Contraseña: </label><input size="30" type="password" name="password" placeholder="Ingresar contraseña"> <br><br>
 	<label for="passwordConfirm">Repetir contraseña: </label><input size="30" type="password" name="passwordConfirm" placeholder="Reingresar contraseña"> <br>
-		<p> <br>Genero: <br> 
+		<p> <u>Genero:</u> <br> 
 			<input type="radio" name="gender" value="man"> Hombre
 			<input type="radio" name="gender" value="woman"> Mujer
 			<input type="radio" name="gender" value="other"> Otros
 		</p>
-		<p> <br>Plantas favoritas: <br>
-			<input type="checkbox" name="plants" value="pinguicula">Pinguicula<br>
-			<input type="checkbox" name="plants" value="drosera">Drosera<br>
-			<input type="checkbox" name="plants" value="venus">Venus<br>
-			<input type="checkbox" name="plants" value="sarracenia">Sarracenia<br>	
+		<p> <u>Plantas favoritas:</u> <br>
+			<table>
+				<tr>
+					<th><input type="checkbox" name="plants" value="pinguicula">Pinguicula</th>
+					<th><input type="checkbox" name="plants" value="drosera">Drosera</th>
+				</tr>
+				<tr>
+					<th><input type="checkbox" name="plants" value="venus">Venus</th>
+					<th><input type="checkbox" name="plants" value="sarracenia">Sarracenia</tr>	
+				</tr>
+			</table>
 		</p>
 	<label for="comments">Seleccionar opcion: </label>
 	<select id="comments" name="comments">
@@ -48,19 +60,24 @@
 	<option value="complains">Reclamos</option>
 	</select><br>
 	<label for="box"></label><textarea name="box" rows="10" cols="30"></textarea>
-	<br><br><input type="submit" value="Enviar">
+	</div><br>
+	<input type="submit" value="Enviar">
 	<button type="reset">Reset</button>
 	<br>
-	<input type="checkbox" name="confirm" value="confirm" required="">Al enviar esta aceptando los terminos y condiciones<br>			
+	<input type="checkbox" name="confirm" value="confirm" required="">Al enviar esta aceptando los terminos y condiciones<br>		
+	</div>	
 </form>
-<footer style="background: lime; text-align: center;">
 
+<footer>
+	<br>
+	<div class = "redes">
 	<a href="https://facebook.com"><img src="imgs/facebook.png" alt = facebook></a>
 	<a href="https://instagram.com"><img src="imgs/instagram.png" alt = "instagram"></a>
 	<a href="https://linkedin.com/in/magaligracia"><img src="imgs/linkedin.png" alt = "linkedin"></a>
 	<a href="https://pinterest.com"><img src="imgs/pinterest.png" alt = "pinterest" </a>
 	<a href="https://www.twitter.com"><img src="imgs/twitter.png" alt = "twitter"></a>
-	<br>Maggie 2020<br>
+	</div>
+	<br><br>Maggie 2020<br>
 </footer>
 </body>
 </html>
